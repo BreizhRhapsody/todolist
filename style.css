@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Permanent+Marker&display=swap");
 
+/* Reset */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+/* Base */ 
 
 html {
   height: 100%;
@@ -40,6 +44,8 @@ h1 {
   text-shadow: 4px 3px 0px #00000093;
   margin-bottom: 1vh;
 }
+
+/* Header */
 
 header {
   text-align: center;
@@ -88,6 +94,8 @@ header {
   -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.25);
 }
+
+/* List */
 
 section {
   display: flex;
@@ -149,6 +157,8 @@ li {
   color: #cc2959;
 }
 
+/* Footer */
+
 footer {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -159,6 +169,8 @@ footer {
 a {
   color: rgba(0, 0, 0, 0.404);
 }
+
+/* Dark mode */
 
 .container {
   display: flex;
@@ -232,6 +244,8 @@ a {
   top: -4px;
   left: 30px;
 }
+
+/* Media queries */
 
 @media screen and (max-width: 640px) {
   section {
